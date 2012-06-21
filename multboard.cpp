@@ -19,7 +19,7 @@ int anti_hard = 0;
      : QFrame(parent)
  {
 
-     setStyleSheet("QWidget { background-image: url(background0.gif); }");
+     setStyleSheet("QWidget { background-image: url(imgs/background0.gif); }");
      setFrameStyle(QFrame::Panel | QFrame::Sunken);
      setFocusPolicy(Qt::StrongFocus);
      isStarted = false;
@@ -36,47 +36,47 @@ int anti_hard = 0;
       
       sman = new Sman (0,1);
    
-      kittens[0] = new Kitten(30,170, 1, -1, "heart1.png");
-      kittens[1]= new Kitten (400, 60, -1, 1, "heart2.png");
-      kittens[2]= new Kitten (120, 440, 1, -1, "heart3.png");
-      kittens[3]= new Kitten (300, 300, -1, -1, "heart4.png");
-      kittens[4]= new Kitten (200, 200, 1, 1, "heart5.png");
-     rains[0] = new Rain(30,170, 0, 1, "kite1.gif");
-      rains[1]= new Rain (400, 60, 0, 1, "kite2.gif");
-      rains[2]= new Rain (120, 440, 0, 1, "kite3.gif");
-      rains[3]= new Rain (300, 300, 0, 1, "kite4.gif");
-      rains[4]= new Rain (200, 200, 0, 1, "kite5.gif");
+      kittens[0] = new Kitten(30,170, 1, -1, "imgs/heart1.png");
+      kittens[1]= new Kitten (400, 60, -1, 1, "imgs/heart2.png");
+      kittens[2]= new Kitten (120, 440, 1, -1, "imgs/heart3.png");
+      kittens[3]= new Kitten (300, 300, -1, -1, "imgs/heart4.png");
+      kittens[4]= new Kitten (200, 200, 1, 1, "imgs/heart5.png");
+     rains[0] = new Rain(30,170, 0, 1, "imgs/kite1.gif");
+      rains[1]= new Rain (400, 60, 0, 1, "imgs/kite2.gif");
+      rains[2]= new Rain (120, 440, 0, 1, "imgs/kite3.gif");
+      rains[3]= new Rain (300, 300, 0, 1, "imgs/kite4.gif");
+      rains[4]= new Rain (200, 200, 0, 1, "imgs/kite5.gif");
 
-      sballs[0] = new Sball(30,170, 1, 1, "ball.png");
-      sballs[1]= new Sball (400, 60, 1, 1, "ball.png");
-      sballs[2]= new Sball (120, 440, 1, 1, "ball.png");
-      sballs[3]= new Sball (300, 300, 1, 1, "ball.png");
-      sballs[4]= new Sball (200, 200, 1, 1, "ball.png");
-      sballs[5] = new Sball(30,170, 1, 1, "ball.png");
-      sballs[6]= new Sball (460, 60, 1, 1, "ball.png");
-      sballs[7]= new Sball (190, 440, 1, 1, "ball.png");
-      sballs[8]= new Sball (350, 300, 1, 1, "ball.png");
-      sballs[9]= new Sball (230, 200, 1, 1, "ball.png");
+      sballs[0] = new Sball(30,170, 1, 1, "imgs/ball.png");
+      sballs[1]= new Sball (400, 60, 1, 1, "imgs/ball.png");
+      sballs[2]= new Sball (120, 440, 1, 1, "imgs/ball.png");
+      sballs[3]= new Sball (300, 300, 1, 1, "imgs/ball.png");
+      sballs[4]= new Sball (200, 200, 1, 1, "imgs/ball.png");
+      sballs[5] = new Sball(30,170, 1, 1, "imgs/ball.png");
+      sballs[6]= new Sball (460, 60, 1, 1, "imgs/ball.png");
+      sballs[7]= new Sball (190, 440, 1, 1, "imgs/ball.png");
+      sballs[8]= new Sball (350, 300, 1, 1, "imgs/ball.png");
+      sballs[9]= new Sball (230, 200, 1, 1, "imgs/ball.png");
 
-     sled[0] = new Sled(30,170, 1, 0, "sled1.png");
-      sled[1]= new Sled (460, 60, 1, 0, "sled2.png");
-      sled[2]=new Sled (190, 440, 1, 0, "sled3.png");
-      sled[3]= new Sled (350, 300, 1, 0, "sled4.png");
-      sled[4]= new Sled (230, 200, 1, 0, "sled5.png");
+     sled[0] = new Sled(30,170, 1, 0, "imgs/sled1.png");
+      sled[1]= new Sled (460, 60, 1, 0, "imgs/sled2.png");
+      sled[2]=new Sled (190, 440, 1, 0, "imgs/sled3.png");
+      sled[3]= new Sled (350, 300, 1, 0, "imgs/sled4.png");
+      sled[4]= new Sled (230, 200, 1, 0, "imgs/sled5.png");
     
 
-    present[0] = new Present(1,0,0,1, "present.png");
-    present[1] = new Present(1,0,0,1, "present.png");
-    present[2] = new Present(1,0,0,1, "present.png");
+    present[0] = new Present(1,0,0,1, "imgs/present.png");
+    present[1] = new Present(1,0,0,1, "imgs/present.png");
+    present[2] = new Present(1,0,0,1, "imgs/present.png");
 
 
-    coin[0] = new Coin(1,0,0,1, "coin.gif");
-    coin[1] = new Coin(1,0,0,1, "coin.gif");
-    coin[2] = new Coin(1,0,0,1, "coin.gif");
+    coin[0] = new Coin(1,0,0,1, "imgs/coin.gif");
+    coin[1] = new Coin(1,0,0,1, "imgs/coin.gif");
+    coin[2] = new Coin(1,0,0,1, "imgs/coin.gif");
 
-    tree = new Tree (20, 550, 0, 0,"tree.gif"); 
+    tree = new Tree (20, 550, 0, 0,"imgs/tree.gif"); 
     
-  bush = new Tree (550, 570, 0, 0, "bush.png");
+  bush = new Tree (550, 570, 0, 0, "imgs/bush.png");
     
 
     
@@ -167,7 +167,7 @@ void MultBoard::pause()
     {
     if (kittens[i]->isDestroyed()&&i!=1)
     {
-	kittens[i]->imageChange("wrong.gif");
+	kittens[i]->imageChange("imgs/wrong.gif");
         
     }
 
@@ -188,26 +188,26 @@ void MultBoard::pause()
         buck->getImage());
 
      
-     kittens[0]->imageChange("rain.gif");
+     kittens[0]->imageChange("imgs/rain.gif");
      painter.drawImage(kittens[0]->getRect(), 
         kittens[0]->getImage());
         
 
-    kittens[1]->imageChange("rain.gif");
+    kittens[1]->imageChange("imgs/rain.gif");
     painter.drawImage(kittens[1]->getRect(), 
         kittens[1]->getImage());
    
-    kittens[2]->imageChange("rain.gif");
+    kittens[2]->imageChange("imgs/rain.gif");
     painter.drawImage(kittens[2]->getRect(), 
         kittens[2]->getImage());
 
     
     
-    kittens[3]->imageChange("rain.gif");
+    kittens[3]->imageChange("imgs/rain.gif");
     painter.drawImage(kittens[3]->getRect(), 
         kittens[3]->getImage());
 
-    kittens[4]->imageChange("rain.gif");
+    kittens[4]->imageChange("imgs/rain.gif");
     painter.drawImage(kittens[4]->getRect(), 
         kittens[4]->getImage());
 	
@@ -215,7 +215,7 @@ void MultBoard::pause()
     {
     if (rains[i]->isDestroyed()&&i!=1)
     {
-	rains[i]->imageChange("wrong.gif");
+	rains[i]->imageChange("imgs/wrong.gif");
         
     }
 
@@ -571,22 +571,22 @@ if (level ==1)
 	
     if (score <=15 && score > 0)
     {
-    setStyleSheet("QWidget { background-image: url(background1.gif); }");
-    kittens[0]->imageChange("fly1.png");
+    setStyleSheet("QWidget { background-image: url(imgs/background1.gif); }");
+    kittens[0]->imageChange("imgs/fly1.png");
 
         kittens[0]->getImage();
 
-    kittens[1]->imageChange("fly2.png");
+    kittens[1]->imageChange("imgs/fly2.png");
    
         kittens[1]->getImage();
    
-    kittens[2]->imageChange("fly3.png");
+    kittens[2]->imageChange("imgs/fly3.png");
    
         kittens[2]->getImage();
-    kittens[3]->imageChange("fly4.png");
+    kittens[3]->imageChange("imgs/fly4.png");
    
         kittens[3]->getImage();
-    kittens[4]->imageChange("fly5.png");
+    kittens[4]->imageChange("imgs/fly5.png");
  
         kittens[4]->getImage();
     
@@ -594,25 +594,25 @@ if (level ==1)
 
     else if (score >= 15 && score <35)
     {
-    setStyleSheet("QWidget { background-image: url(background2.gif); }");
+    setStyleSheet("QWidget { background-image: url(imgs/background2.gif); }");
      kittens[0]->setDestroyed(FALSE);
-     kittens[0]->imageChange("angel1.png");
+     kittens[0]->imageChange("imgs/angel1.png");
 
         kittens[0]->getImage();
 
-    kittens[1]->imageChange("angel5.png");
+    kittens[1]->imageChange("imgs/angel5.png");
    
         kittens[1]->getImage();
     kittens[2]->setDestroyed(FALSE);
-    kittens[2]->imageChange("angel3.png");
+    kittens[2]->imageChange("imgs/angel3.png");
    
         kittens[2]->getImage();
     kittens[3]->setDestroyed(FALSE);
-    kittens[3]->imageChange("angel4.png");
+    kittens[3]->imageChange("imgs/angel4.png");
    
         kittens[3]->getImage();
     kittens[4]->setDestroyed(FALSE);
-    kittens[4]->imageChange("angel2.png");
+    kittens[4]->imageChange("imgs/angel2.png");
  
         kittens[4]->getImage();
   
@@ -627,7 +627,7 @@ if (level ==1)
         level =2;
          emit levelChanged(level);
          pause();
-         setStyleSheet("QWidget { background-image: url(levelup.png); }");
+         setStyleSheet("QWidget { background-image: url(imgs/levelup.png); }");
         levelUp = TRUE;
         update();
        
@@ -650,7 +650,7 @@ else if (level ==2)
 
 if (anti_hard == 0)
 {
-setStyleSheet("QWidget { background-image: url(blevel20.gif); }");
+setStyleSheet("QWidget { background-image: url(imgs/blevel20.gif); }");
 }
 int bLeft = buck->getRect().left();  
       int bHeight = buck->getRect().height(); 
@@ -809,25 +809,25 @@ if (((iTop >=( rains[0]->getRect().top()))&&iBottom<=(rains[0]->getRect().bottom
 
 
 
-	setStyleSheet("QWidget { background-image: url(blevel21.gif); }");
+	setStyleSheet("QWidget { background-image: url(imgs/blevel21.gif); }");
      rains[0]->setDestroyed(FALSE);
-     rains[0]->imageChange("umbrella1.png");
+     rains[0]->imageChange("imgs/umbrella1.png");
 
         rains[0]->getImage();
 
-    rains[1]->imageChange("umbrella2.png");
+    rains[1]->imageChange("imgs/umbrella2.png");
    
        rains[1]->getImage();
     rains[2]->setDestroyed(FALSE);
-    rains[2]->imageChange("umbrella3.png");
+    rains[2]->imageChange("imgs/umbrella3.png");
    
         rains[2]->getImage();
     rains[3]->setDestroyed(FALSE);
-    rains[3]->imageChange("umbrella4.png");
+    rains[3]->imageChange("imgs/umbrella4.png");
    
         rains[3]->getImage();
     rains[4]->setDestroyed(FALSE);
-    rains[4]->imageChange("umbrella5.png");
+    rains[4]->imageChange("imgs/umbrella5.png");
  
         rains[4]->getImage();
          
@@ -844,25 +844,25 @@ if (anti_hard == 2)
 
 
 	
-	setStyleSheet("QWidget { background-image: url(blevel22.gif); }");
+	setStyleSheet("QWidget { background-image: url(imgs/blevel22.gif); }");
      rains[0]->setDestroyed(FALSE);
-     rains[0]->imageChange("parka1.gif");
+     rains[0]->imageChange("imgs/parka1.gif");
 
         rains[0]->getImage();
 
-    rains[1]->imageChange("parka2.gif");
+    rains[1]->imageChange("imgs/parka2.gif");
    
        rains[1]->getImage();
     rains[2]->setDestroyed(FALSE);
-    rains[2]->imageChange("parka3.gif");
+    rains[2]->imageChange("imgs/parka3.gif");
    
         rains[2]->getImage();
     rains[3]->setDestroyed(FALSE);
-    rains[3]->imageChange("parka4.gif");
+    rains[3]->imageChange("imgs/parka4.gif");
    
         rains[3]->getImage();
     rains[4]->setDestroyed(FALSE);
-    rains[4]->imageChange("parka5.gif");
+    rains[4]->imageChange("imgs/parka5.gif");
  
         rains[4]->getImage();
         
@@ -876,7 +876,7 @@ if (anti_hard ==3)
 level =3;
          emit levelChanged(level);
          pause();
-         setStyleSheet("QWidget { background-image: url(levelup.png); }");
+         setStyleSheet("QWidget { background-image: url(imgs/levelup.png); }");
         levelUp = TRUE;
         update();
 
@@ -891,7 +891,7 @@ update();
 
 if (level ==3 && !isPaused)
 {
-setStyleSheet("QWidget { background-image: url(b31.gif); }");
+setStyleSheet("QWidget { background-image: url(imgs/b31.gif); }");
 
 if (((iTop >=( sballs[0]->getRect().top()))&&iBottom<=(sballs[0]->getRect().bottom())) && iLeft >=(sballs[0]->getRect().left())&&iRight<=(sballs[0]->getRect().right()))
     
@@ -1027,7 +1027,7 @@ if (((iTop >=( sled[0]->getRect().top()))&&iBottom<=(sled[0]->getRect().bottom()
   if (anti_hard >=4 )
      {
       
-      setStyleSheet("QWidget { background-image: url(victory.gif); }");
+      setStyleSheet("QWidget { background-image: url(imgs/victory.gif); }");
      
      update();
       pause();
