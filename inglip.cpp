@@ -5,7 +5,7 @@ Inglip::Inglip()
 {
   xdir = 0;
   ydir = -1;
-  image.load("CupcakeMoTransparent.gif");
+  image.load("imgs/CupcakeMoTransparent.gif");
 
   rect = image.rect();
   resetState();

@@ -10,7 +10,7 @@ Sman::Sman(int x, int y)
 
   ydir = y;
 
-  image.load("sman.png"); 
+  image.load("imgs/sman.png"); 
 
   rect = image.rect();
   resetState();
