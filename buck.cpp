@@ -11,7 +11,7 @@ Buck::Buck(int x, int y)
  }
   ydir = y;
 
-  image.load("hell.png"); 
+  image.load("imgs/hell.png"); 
 
   rect = image.rect();
   resetState();
@@ -33,13 +33,13 @@ void Buck::autoMove()
   getRect();
 
   if (rect.left() <= 2) {
-    image.load("airplane2.gif"); 
+    image.load("imgs/airplane2.gif"); 
     xdir = 100;
     
   }
 
   else if (rect.right() >= 698) {
-    image.load("airplane1.gif"); 
+    image.load("imgs/airplane1.gif"); 
     xdir =-100;
 
   }
